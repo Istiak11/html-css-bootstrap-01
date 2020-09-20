@@ -1,0 +1,320 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 100%!important;
+	float: left;
+	background-color: none;
+	background: url(../img/banner.jpg) center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 25px 0;
+	display: block;
+	z-index: 11;
+	position: relative;
+}
+header::after{
+	content: '';
+	background-color: #161616;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0.4;
+	z-index: -1;
+}
+.image-center{
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+}
+.nav-head{
+	background-color: none !important;
+}
+.nav-link{
+	color: #ffffff!important;
+}
+.nav-item{
+	margin: 0px 12px;
+}
+.banner-content{
+	padding: 120px 0;
+
+}
+.banner-content h2{
+	background-color: #d3d3d347;
+	font-size: 32px;
+	padding: 10px 15px;
+	text-align: center;
+	
+}
+.banner-content p{
+	color: #ffffff;
+	
+}
+.banner-content span{
+	border-bottom: 1px solid #ffffff;
+	width: 20px;
+	display: block;
+	margin: 15px 0px;
+	
+}
+.btn-one{
+   background-color:transparent;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+   padding: 3px 35px; 
+}
+
+
+.about{
+	width: 100%;
+	float: left;
+	background-color: #f6f6f6;
+	padding-top: 55px;
+}
+.about-content{
+	padding-top: 30px;
+
+}
+.about-content h2{
+	font-weight: bold;
+
+	
+}
+.about-content span{
+	border-bottom: 1px solid #a5a5a5;
+	width: 20px;
+	display: block;
+	margin: 15px 0px;
+}
+.about-content p{
+	color: #a5a5a5;
+}
+.car-img{
+   position: relative;
+
+}
+.image-car{
+	width: 500px!important;
+	position: absolute;
+	top:50px;
+
+}
+.port{
+	width: 100%;
+	float: left;
+	background-color: #28282e;
+	padding-top: 70px;
+}
+.port-content{
+
+}
+.port-content h2{
+	font-weight: bold;
+	color: #ffffff;
+
+}
+.port-content span{
+	border-bottom: 1px solid #ffffff;
+	width: 20px;
+	display: block;
+	margin: 15px 0px;
+
+}
+.port-content p{
+	color: #ffffff;
+	font-size: 14px;
+	padding-top: 25px;
+	padding-right: 30px;
+	margin-right: 138px;
+	text-align: justify;
+}
+.btw{
+	padding: 35px 0px;
+}
+.btn-two{
+   background-color:transparent;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+   padding: 8px 24px; 
+}
+.cr-img{
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	display: block;
+	width: 745px;
+}
+.img-cr{
+	position: relative;
+}
+
+.copy{
+	width: 100%;
+	float: left;
+	background-color: red;
+}
+.copy-right{
+   text-align: center;
+
+
+}
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+@media(min-width: 0px) and (max-width: 600px){
+	.btn-one{
+   background-color:transparent;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+   padding: 3px 10px; 
+}
+.car-img{
+  
+
+}
+.image-car{
+	width: 240px!important;
+	
+	
+
+}
+.port-content p{
+	color: #ffffff;
+	font-size: 8px;
+	text-align: justify;
+}
+.cr-img{
+	
+	width: 180px;
+}
+.img-cr{
+}
+	
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 10px;
+}
+
+}
+@media(min-width: 600.1px) and (max-width: 768px){
+	.btn-one{
+   background-color:transparent;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+   padding: 3px 10px; 
+}
+.car-img{
+  
+
+}
+.image-car{
+	width: 280px!important;
+	
+	
+
+}
+.port-content p{
+	color: #ffffff;
+	font-size: 8px;
+	text-align: justify;
+}
+.cr-img{
+	
+	width: 200px;
+}
+.img-cr{
+}
+	
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 10px;
+}
+
+}
+@media(min-width:768.01px) and (max-width: 992px){
+	.btn-one{
+   background-color:transparent;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+   padding: 3px 10px; 
+}
+.car-img{
+  
+
+}
+.image-car{
+	width: 300px!important;
+	
+	
+
+}
+.port-content p{
+	color: #ffffff;
+	font-size: 8px;
+	text-align: justify;
+}
+.cr-img{
+	
+	width: 220px;
+}
+.img-cr{
+}
+	
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 10px;
+}
+
+}
+@media(min-width:992.01px) and (max-width: 1140px){
+	.btn-one{
+   background-color:transparent;
+   color: #ffffff;
+   border: 2px solid #ffffff;
+   padding: 3px 10px; 
+}
+.car-img{
+  
+
+}
+.image-car{
+	width: 360px!important;
+	
+	
+
+}
+.port-content p{
+	color: #ffffff;
+	font-size: 8px;
+	text-align: justify;
+}
+.cr-img{
+	
+	width: 240px;
+}
+.img-cr{
+}
+	
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 10px;
+}
+}

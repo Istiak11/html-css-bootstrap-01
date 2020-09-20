@@ -1,0 +1,169 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 100%;
+	float: left;
+}
+.image-center{
+	width: 250px;
+	display: block;
+}
+.nav-head{
+	background-color: none !important;
+}
+.nav-link{
+	color: #005e7e!important;
+}
+.nav-item{
+	margin: 0px 12px;
+}
+.bor span{
+	border: 2px solid #e4e4e4!important;
+	display: block;
+	padding-bottom: 0px;
+}
+.about{
+	width: 100%;
+	float: left;
+	background-color: #ee4a3f;
+	padding-top: 25px;
+}
+.banner-img h1{
+   font-weight:bold;
+   margin-bottom: 50px;
+   color: #ffffff;
+}
+.car-img{
+    width: 765px!important;
+}
+.cont p{
+	color: #ffffff;
+	font-size: 15px;
+	padding-right: 43px;
+}
+.car-image{
+	width: 333px!important;
+    padding-top: 60px;
+    display: block;
+    text-align: center;
+    padding-left: 27px;
+}
+.btw{
+	padding-top: 7px;
+}
+.form-control{
+	color: transparent;
+
+}
+.one{
+	
+	color: #ffffff;
+}
+.three{
+	text-align: left!important;
+	color: #ffffff;
+}
+#formGroupExampleInput{
+	background-color: #ff6258;
+	border: none;
+}
+
+#formGroupExampleInput2{
+	background-color: #ff6258;
+	border: none;
+}
+.sub{
+	display: block;
+	text-align: center;
+	
+}
+.sop{
+	padding-top: 80px;
+}
+.copy{
+	width: 100%;
+	float: left;
+	background-color: red;
+}
+.copy-right{
+   text-align: center;
+
+
+}
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+@media(min-width: 0px) and (max-width: 600px){
+	.car-img{
+   width:320px!important;
+   
+}
+.car-image{
+	width: 180px!important;
+}
+.sop{
+	padding-bottom: 15px;
+}
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 10px;
+}
+
+}
+@media(min-width: 600.01px) and (max-width: 768px){
+.car-img{
+   width:400px!important;
+   
+}
+.car-image{
+	width: 200px!important;
+}
+.sop{
+	padding-bottom: 10px;
+}
+.copy-right p{
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	font-size: 10px;
+}
+
+}
+@media(min-width: 768.01px) and (max-width: 992px){
+.car-img{
+   width:480px!important;
+   
+}
+
+.car-image{
+	width: 230px!important;
+}
+
+
+}
+
+@media(min-width: 992.01px) and (max-width: 1140px){
+.car-img{
+   width:650px!important;
+   
+}
+
+.car-image{
+	width: 300px!important;
+}
+
+
+}
+
+
